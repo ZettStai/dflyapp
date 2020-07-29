@@ -12,8 +12,13 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
+<<<<<<< HEAD
           command: ./manage.py test
           #command: print("Hello World")
+=======
+        #  command: ./manage.py test
+          command: print("Hello World")
+>>>>>>> daa0f641d7e2f6ad5a8fad9240f3d0da359c0545
           name: Test
 
 workflows:
